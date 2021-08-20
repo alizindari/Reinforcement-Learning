@@ -17,10 +17,10 @@ class Environment:
         self.current_position = [0,0]
         self.actions = ['r','l','d','u']
         self.reward_dict = {
-            'g':10,
-            'f':0,
+            'g':1000,
+            'f':-1,
             's':0,
-            'h':-15
+            'h':-2
         }
         
     def reset(self):
