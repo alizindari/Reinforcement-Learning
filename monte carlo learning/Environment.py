@@ -20,7 +20,7 @@ class Environment:
             'g':1000,
             'f':-1,
             's':0,
-            'h':-2
+            'h':-20
         }
         
     def reset(self):
